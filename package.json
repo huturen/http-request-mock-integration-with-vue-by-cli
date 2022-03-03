@@ -1,5 +1,5 @@
 {
-  "name": "http-request-mock-with-cli",
+  "name": "http-request-mock-integration-with-vue-by-cli",
   "version": "0.1.0",
   "private": true,
   "scripts": {
