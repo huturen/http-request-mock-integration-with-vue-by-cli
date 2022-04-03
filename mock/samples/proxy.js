@@ -6,6 +6,5 @@
  */
 module.exports = {
   msg: 'Proxy to local proxy server.',
-  nodejs: process.version
 };
 
