@@ -45,6 +45,8 @@ export default {
         'https://jsonplaceholder.typicode.com/header': require('!raw-loader!../mock/samples/header.js').default,
         'https://jsonplaceholder.typicode.com/request-info?a=1': require('!raw-loader!../mock/samples/request.js').default,
         'https://jsonplaceholder.typicode.com/cache': require('!raw-loader!../mock/samples/cache.js').default,
+        'https://jsonplaceholder.typicode.com/remote': require('!!raw-loader!../mock/samples/remote.js').default,
+        'https://jsonplaceholder.typicode.com/proxy-mode': require('!!raw-loader!../mock/samples/proxy.js').default,
       }
     }
   },

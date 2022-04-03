@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "mock-dev": "http-request-mock-cli -w \"vue-cli-service serve\"",
+    "mock-dev": "http-request-mock-cli -p marked -w \"vue-cli-service serve\"",
     "gen-proto": "http-request-mock-cli --proto",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -26,7 +26,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "http-request-mock": "^1.5.11",
+    "http-request-mock": "^1.6.7",
     "jest": "^27.5.1",
     "raw-loader": "^4.0.2"
   },
