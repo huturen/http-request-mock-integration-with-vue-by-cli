@@ -10,7 +10,7 @@ module.exports = (request) => {
     code: 0,
     msg: "ok",
     data: {
-      id: faker.incrementId(1, "Record"),
+      id: faker.incrementId("Record", 1),
       name: faker.name(),
       age: faker.integer(0, 10000),
       email: faker.email(),

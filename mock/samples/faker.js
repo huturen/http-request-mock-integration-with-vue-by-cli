@@ -6,7 +6,7 @@
 const faker = require('http-request-mock/plugin/faker.js');
 module.exports = () => {
   return {
-    id: faker.incrementId(1, 'faker'),
+    id: faker.incrementId('faker', 1),
     name: faker.name(),
     age: 10 + faker.rand(0, 90),
     phone: faker.phone('(###) ###-####'),
