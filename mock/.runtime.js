@@ -2,7 +2,7 @@
 let mocker;
 
 const HttpRequestMock = require("http-request-mock");
-mocker = HttpRequestMock.setup("matched@localhost:9001");
+mocker = HttpRequestMock.setup();
 mocker.mock({
   "url": "/getResult",
   "body": require('./proto/getResult.js'),
@@ -71,7 +71,8 @@ mocker.mock({
   "body": require('./samples/proxy.js'),
   "header": {
     "content-type": "application/json"
-  }
+  },
+  "proxy": true
 });
 mocker.mock({
   "url": "https://jsonplaceholder.typicode.com/remote",
