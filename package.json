@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "mock-dev": "http-request-mock-cli -w \"vue-cli-service serve\"",
+    "mock-dev": "http-request-mock-cli -p matched -w \"vue-cli-service serve\"",
     "gen-proto": "http-request-mock-cli --proto",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -15,7 +15,7 @@
     "@types/highlight.js": "^10.1.0",
     "axios": "^0.21.1",
     "core-js": "^3.8.3",
-    "http-request-mock": "^1.7.5",
+    "http-request-mock": "^1.7.10",
     "vue": "^3.2.13"
   },
   "devDependencies": {
